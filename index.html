@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #parent{
+            display: grid;
+            grid-template-columns: repeat(4, 300px);
+            grid-template-rows: repeat(3, 450px );
+            gap: 15px;
+        }
+        .child{
+            position: relative;
+            left: 100px;
+            border-radius: 10px;
+            text-align: center;
+            margin: auto;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        .child>div{
+            border-radius: 8px;
+            background-color:rgb(229,231,235) ;
+            
+        }
+        img{
+            margin-top: 8px;  
+            margin-bottom: -2px;
+        }
+        h2{
+            margin-bottom: -10px;
+        }
+        p{
+            margin-bottom: -5px;
+            font-size: 20px;
+            color: rgb(160, 157, 157);
+        } 
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="chilld">
+
+        </div>
+        <div class="chilld"><div class="child">
+            <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="invester-img"></div>
+
+            <h2>Vijay Shekhar Sharma</h2>
+            <p>Founder & CEO</p>
+            <img style="height: fit-content; width: 150px; " src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="paytm_img">
+        </div>
+    </div>
+        <div class="chilld"></div>
+        <div class="chilld"></div>
+        <div class="chilld"></div>
+        <div class="chilld"></div>
+        <div class="chilld"></div>
+        <div class="chilld"></div>
+        <div class="chilld"></div>
+        <div class="chilld"></div>
+        <div class="chilld"></div>
+        <div class="chilld"></div>
+    </div>
+</body>
+</html>
