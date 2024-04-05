@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+}
+ #parent{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 450px );
+    column-gap: 20px;
+    row-gap: 50px;
+}
+.child{
+    margin-top: 10px;
+    position: relative;
+    left: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.child>div{
+    border-radius: 8px;
+    background-color:rgb(229,231,235) ;
+    
+}
+.child >img{
+    height: 51px;
+    width: 150px;
+}
+.child>div>img{
+    height: 340px;
+    width: 300px;
+    margin-top: 8px;  
+    margin-bottom: -3px;
+}
+h2{
+    margin-bottom: -8px;
+}
+p{
+    margin-bottom: -5px;
+    font-size: 20px;
+    color: rgb(160, 157, 157);
+} 
+@media screen and (min-width:400px) and ( max-width:767px){
+    body{
+        text-align: center;
+        margin: auto;
+    }
+    #parent{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 450px );
+    gap: 20px;
+    }
+}
+@media screen and (min-width:150px) and ( max-width:399px){
+    body{
+        text-align: center;
+    }
+    h1{
+        font-size: 15px;
+    }
+    #parent{
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    grid-template-rows: repeat(1, 350px );
+    gap: 20px;
+    }
+    img{
+        height: 200px;
+        width:200px ;
+        margin-top: 1px;
+        margin-bottom: 0px;
+    
+    }
+    .child{
+        position: relative;
+        left: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin: auto;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
