@@ -1,0 +1,154 @@
+* {
+    /* border: 1px solid; */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Nav_Bar1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.dropdown1 {
+    padding-left: 20px;
+    width: 55%;
+}
+
+.Nav_Bar1 div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    border-right: 1px solid;
+}
+
+.Nav_Bar1 div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid;
+}
+
+.Nav_Bar1 div:nth-child(4) {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid;
+}
+
+.Nav_Bar1 div:nth-child(5) {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid;
+}
+
+.Nav_Bar1 div:nth-child(6) {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid;
+}
+
+.img1 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.img1 img {
+    width: 35px;
+    height: 45px;
+}
+
+.Nav_Bar2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.Nav_Bar2 a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.SearchBar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 20px;
+    border-bottom: 1px solid;
+}
+
+.SearchBar1 input {
+    border: none;
+}
+
+.SearchBar1 input::placeholder {
+    font-size: 16px;
+    text-align: center;
+}
+
+.SearchButton1 button {
+    display: flex;
+    padding: 10px 30px 0px 10px;
+    margin: 0px 0px 30px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 24px;
+}
+
+.SearchButton1 button div {
+    padding-left: 5px;
+}
+
+.Content1 {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card_img img {
+    width: 100%;
+}
+
+.card_content div:nth-child(1) {
+
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(12, 35, 64);
+}
+
+.card_content div:nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(12, 35, 64);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card_content div:nth-child(3) {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
